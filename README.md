@@ -1,8 +1,7 @@
-## Dice game.
+## Tincat website.
 
-See: https://amashuroff.github.io/dice-game/
-___
+See: https://amashuroff.github.io/tincat-project/
 
 ### Technologies:
-* Javascript
-* DOM
+* HTML/CSS
+* Bootstrap 4
