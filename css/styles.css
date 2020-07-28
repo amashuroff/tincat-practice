@@ -1,0 +1,181 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+em {
+  font-size: 1.1rem;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Navigation Bar */
+
+#navig-bar {
+  padding-bottom: 100px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  font-size: large;
+  padding-right: 50px;
+}
+
+
+
+
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 15% 150px;
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.iphone-img {
+  width: 400px;
+  height: 800px;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+@media (max-width: 1150px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    margin-top: 40px;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#apple-btn {
+  margin-right: 30px;
+}
+
+.big-heading {
+  padding-bottom: 30px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.download-btn {
+  margin-top: 20px;
+}
+
+
+/*Features */
+
+#features {        /* Features section will be on top of the mockup-img even if we don't use z-index, becouse of the position and stacking order */
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.features-heading {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.par_features {
+  color: #8f8f8f;
+  font-size: 1.325rem;
+}
+
+.icon {
+  color: #ef8172;
+  padding: 3%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.cat-img {
+  width: 15%;
+  margin: 30px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press */
+
+#press {
+  padding-top: 70px;
+  background-color: #ef8172;
+  padding-bottom: 2%;
+}
+
+.press-img {
+  padding: 10px 3% 100px 3%;
+  width: 20%;
+}
+
+/* Pricing */
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-heading {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+/* Call to Action */
+
+
+#cta {
+  background-color: #ff4c68;
+}
+
+
+/* Footer */
+
+#footer {
+  color: #8f8f8f;
+  padding-bottom: 3%;
+}
+
+.icons {
+  padding: 0 10px 20px;
+  color: black;
+}
